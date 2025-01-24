@@ -127,14 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddressOfEntryPointInjection.cpp" />
+    <ClCompile Include="EarlyBirdInjection.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="processGhosting.cpp" />
     <ClCompile Include="processInjectionAPIObfuscation.cpp" />
     <ClCompile Include="remoteProcessInjection.cpp" />
+    <ClCompile Include="RWXHuntingInjection.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addr_of_entry_point_injection.h" />
+    <ClInclude Include="early_bird_injection.h" />
+    <ClInclude Include="process_ghosting.h" />
     <ClInclude Include="process_injection_api_obfuscation.h" />
     <ClInclude Include="process_injection_remote.h" />
+    <ClInclude Include="rwx_hunting_injection.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
