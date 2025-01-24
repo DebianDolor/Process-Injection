@@ -19,7 +19,7 @@ LPVOID FindRWXMemoryRegion(HANDLE hProcess) {
 }
 
 void RWXHuntingInjection() {
-    const wchar_t* targetProcessName = L"svchost.exe";
+    const wchar_t* targetProcessName = L"notepad.exe";
 
     // Get the PID of the target process
     DWORD processId = GetProcessIdByName(targetProcessName);

@@ -36,9 +36,6 @@
     <ClCompile Include="RWXHuntingInjection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="processGhosting.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="process_injection_remote.h">
@@ -57,9 +54,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rwx_hunting_injection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="process_ghosting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

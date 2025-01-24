@@ -17,9 +17,9 @@ int main()
     //
     //EarlyBirdInjection();
     //
-    //RWXHuntingInjection();
+    RWXHuntingInjection();
     //
-    processGhosting();
+    //processGhosting();
 
     return 0;
 }
